@@ -1,3 +1,5 @@
+// src\components\Loader.jsx
+
 import { Html, useProgress } from "@react-three/drei";
 
 const CanvasLoader = () => {
