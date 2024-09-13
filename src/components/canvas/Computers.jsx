@@ -1,7 +1,7 @@
 // src\components\canvas\Computers.jsx
 
 import React, { Suspense, useEffect, useState } from "react";
-import { Canvas } from "@react-three/fiber";
+import { Canvas, Mesh, HemisphereLight, SpotLight, PointLight } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
